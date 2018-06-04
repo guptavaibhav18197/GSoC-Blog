@@ -23,7 +23,7 @@ With blueprints, we can have possibly 2 different Directory Hierarchy choices **
 
 We will divide the main Rapid Annotator into several smaller packages which will be related to specific tasks like **admin package** will manage all the control the admin has over all application just as in _divisional approch_. Borrowing from _functional approach_ we will have code that can be shared across all the packages like generic jinja-macros, jinja-filters, WTForms-validatorcss, css and other reusable code.   
 
-![image](https://guptavaibhav18197.github.io/GSoC-Blog/thumbnail-jumbo.png)
+![image](thumbnail-jumbo.png)
 ![image](https://codechef_shared.s3.amazonaws.com/download/upload/APRIL18/editorial/z3.png "Figure 1")
 
 ## [](#header-2)Code Implemented
