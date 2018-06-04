@@ -7,11 +7,10 @@
 #
 layout: home
 ---
+Hello All! I am Vaibhav, a 3rd year AI enthusiast from International Institute of Information Technology, Hyderabad.
 
-Cayman Blog Theme is a clean, responsive blogging theme for Jekyll, with social features. It is inspired by the Cayman Theme for Github Pages, which can be greatly used for single projects but not as blogging platform.
+The following list of blog posts will be related to **Google Code of Summer**'s project : **Rapid Annotator**, and a detailed account of my adventures, what I learned in the months May through August, obstacles I faced and how finally I overcame those.
 
-This theme has instead all you need to start today blogging with Jekyll, and no effort: pages, posts, few social buttons. Try loading this on mobile too.
+I by and large attempt to deliver as per documented in the GSoC Timeline in the proposal. I will endeavor to record each one of the deviations from the solutions / approaches as proposed and settled on in the proposal.
 
-Have a look at the Github page for more information.
-
-You find this descriptive text in the `index.md` file, so you can change it, or remove it completely, according to your needs.
+The link to the _github repository_ source code : [Rapid Annotator](https://github.com/guptavaibhav18197/rapidannotator)

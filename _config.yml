@@ -1,9 +1,10 @@
-title: Cayman Blog Theme
-description: Cayman Blog Theme is a clean, responsive blogging theme for Jekyll and GitHub Pages, with social/SEO features.
+title: Vaibhav's Blog
+description: The blog is about my updates on the progess on the **Google Code of Summer**'s project : **Rapid Annotator**.
+
 show_downloads: true
 
 baseurl: "/GSoC-Blog" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
-url: "https://lorepirri.github.io" # change this to the base hostname & protocol for your site
+url: "https://guptavaibhav18197.github.io" # change this to the base hostname & protocol for your site
 
 google_analytics:
 # cayman-blog date format
@@ -14,14 +15,14 @@ cayman-blog:
 theme: # leave it empty
 
 # social
-author: "Lore Pirri"
+author: "Vaibhav Gupta"
 image: /thumbnail-jumbo.png
 twitter:
-  username: lorepirri
+  # username: vaibhavgupta
 #  site:
 facebook:
   #publisher: 1592372034171500
-  #profile_id: 1809805629
+  profile_id: vaibhav.gupta.71
   app_id: 1798910940422432 # cayman-blog
-  #authors: lorepirri
+  #authors: vaibhav
 #  admins:

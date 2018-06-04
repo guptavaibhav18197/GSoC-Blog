@@ -5,9 +5,11 @@ tagline: A few more words about this theme
 permalink: /about.html
 ---
 
-This is the _Cayman Blog_ Jekyll theme. You can find out more info about customizing this theme, as well as basic usage documentation, and source code at: [cayman-blog](https://github.com/lorepirri/cayman-blog)
+Hello All! I am Vaibhav, a 3rd year AI enthusiast from International Institute of Information Technology, Hyderabad.
 
-You can find the source code for _Jekyll_ at [jekyll](https://github.com/jekyll/jekyll)
+The following list of blog posts will be related to **Google Code of Summer**'s project : **Rapid Annotator**, and a detailed account of my adventures, what I learned in the months May through August, obstacles I faced and how finally I overcame those.
+
+The link to the _github repository_ source code : [Rapid Annotator](https://github.com/guptavaibhav18197/rapidannotator)
 
 
 [Go to the Home Page]({{ site.url }}{{ site.baseurl }})
