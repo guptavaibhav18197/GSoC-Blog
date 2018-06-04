@@ -18,7 +18,7 @@ We decided to go with **MySQL** under the abstraction of _flask-SQLAlchemy ORM_.
 *   Also, switching from MySQL to Maria-DB is quite simple but the reverse is not true. So we can switch to Maria-DB in future if the need be.
 
 # [](#header-1)Progress made so far
-I am strictly following the timeline proposed in the project proposal and have been able to convey all the deliverables as per the timeline as of now. The Phase 1 coding tasks have been completed. Apropos of phase 1 deliverables, code has been pushed to the github repository [Rapid Annotator](https://github.com/guptavaibhav18197/rapidannotator).
+I am strictly following the timeline proposed in the project proposal and have been able to convey all the deliverables as per the timeline as of now. The Phase 1 coding tasks have been completed. Apropos of phase 1 deliverables, code has been pushed to the github repository [Rapid Annotator][repository-link].
 
 ## [](#header-2)Directory Structure / File Hierarchy
 With _blueprints_, we can have possibly 2 different Directory Hierarchy choices namely : **functional** and **divisional**. By examining the pros and cons of both I decided to go with a _hybrid_ of the two.
@@ -55,6 +55,12 @@ Phase 1 deals with working on first 3 packages namely : `frontpage`, `home` , `a
 
 An _association object_ was needed since this relation had additional fields of _start_, _end_ and _current_ integer fields indicating the range of the files that specific User has to annotate and the current file number that specific User is annotating.
 
+### Generic Code
+
+*   Created generic macros for rendering similar structured information like forms.
+*   Created a generic **base template** that will be common to all the tabs and pages via _Jinja template inheritance_.
+*   Enhance UI of the basic structure of base template
+
 ### frontpage package
 
 *   Created UI for Login Page.
@@ -62,12 +68,6 @@ An _association object_ was needed since this relation had additional fields of 
 *   Wrote **validators** for making sure username attribute follows a specific _regex_ pattern.
 *   Created **Login Form** and **Registration Form** and fields using FlaskForm of _flask_WTF_ and fields of _WTForms_.
 *   Linked it to database and finished user registration.
-
-### Generic Code
-
-*   Created generic macros for rendering similar structured information like forms.
-*   Created a generic **base template** that will be common to all the tabs and pages via _Jinja template inheritance_.
-*   Enhance UI of the basic structure of base template
 
 ### home package
 
@@ -81,10 +81,12 @@ An _association object_ was needed since this relation had additional fields of 
 *   Added Annotator dropdown displaying a list to choose annotator from.
 *   Used Javascript's _jQuery_ library to make _ajax_ requests to add Owner and Annotators.
 
-## Deviation from the proposal
+## Deviations from the proposal
 
-### Changes in the model
+### Changes in the database schema
 
 *   In the _User model_: I have clubbed _first name_ and _second name_ : into `fullname`, since there is no need of an additional field for name.
 *   In the _User model_: _Password Salt_ is not included in the model: because we are using _flask_bcrypt_ that recommends using the inbuilt salt value. So, I am now storing Password Hash under the field name _password_ itself.
 *   In the _Experiment model_: **created_at** and **status**[complete/incomplete] attributes have been added for ease of access by the Owners and Annotators.  
+
+[repository-link]: https://github.com/guptavaibhav18197/rapidannotator
