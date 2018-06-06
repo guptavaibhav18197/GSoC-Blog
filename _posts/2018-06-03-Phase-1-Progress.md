@@ -24,7 +24,7 @@ I am strictly following the timeline proposed in the project proposal and have b
 With _blueprints_, we can have possibly 2 different Directory Hierarchy choices namely : **functional** and **divisional**. By examining the pros and cons of both I decided to go with a _hybrid_ of the two.
 
 *   As per _divisional approch_ We will divide Rapid Annotator into several smaller packages which will be related to specific tasks. For example **admin package** will manage all the control the admin has over all application.
-*   Borrowing from _functional approach_ we will have code that can be shared across all the packages. For example : generic jinja-macros, jinja-filters, WTForms-validatorcss, css and other reusable code can be used by any of the packages.   
+*   Borrowing from _functional approach_ we will have code that can be shared across all the packages. For example : generic jinja-macros, jinja-filters, WTForms-validators, css and other reusable code can be used by any of the packages.   
 
 Hence, the final Directory Structure is a below
 
