@@ -8,7 +8,7 @@ By the end of Phase 1, I accomplished all the intended tasks.
 # Phase 1 at a glance
 
 *   Completed **Backend Implementation**.
-*   Wrote some _Generic and Reusable code snippets_ relation.
+*   Wrote some _Generic and Reusable code snippets_.
 *   Completed **frontpage** package.
 *   Completed **home** package.
 *   Started implementing **add_experiment** package.
@@ -34,6 +34,9 @@ Use PlUpload to upload files (multiple files together also possible) manually. I
 Here also I have used _ajax calls_ for almost everything.
 Hence, the final outlook of the page is as below
 ![image](https://guptavaibhav18197.github.io/GSoC-Blog/assets/images/uploadFiles.png)
+
+## PlUpload for uploading files
+Now I will be working on _view_experiment package_ and _results page_.
 
 
 [repository-link]: https://github.com/guptavaibhav18197/rapidannotator
