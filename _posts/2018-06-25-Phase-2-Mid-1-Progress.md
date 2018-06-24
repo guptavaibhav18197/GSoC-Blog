@@ -35,7 +35,7 @@ Here also I have used _ajax calls_ for almost everything.
 Hence, the final outlook of the page is as below
 ![image](https://guptavaibhav18197.github.io/GSoC-Blog/assets/images/uploadFiles.png)
 
-## PlUpload for uploading files
+## Work left to do in phase 2
 Now I will be working on _view_experiment package_ and _results page_.
 
 
