@@ -26,7 +26,7 @@ With _blueprints_, we can have possibly 2 different Directory Hierarchy choices 
 *   As per _divisional approch_ We will divide Rapid Annotator into several smaller packages which will be related to specific tasks. For example **admin package** will manage all the control the admin has over all application.
 *   Borrowing from _functional approach_ we will have code that can be shared across all the packages. For example : generic jinja-macros, jinja-filters, WTForms-validatorcss, css and other reusable code can be used by any of the packages.   
 
-Hence, the final Directory Structure is a below
+Hence, the final Directory Structure is as below
 
 ![image](https://guptavaibhav18197.github.io/GSoC-Blog/assets/images/dirStructure.png)
 
