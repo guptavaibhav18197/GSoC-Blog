@@ -18,8 +18,6 @@ This phase is headed towards completing **add_experiment** and **view_experiment
 # Progress made so far
 Again, I am strictly following the timeline proposed in the project proposal and have been able to convey all the deliverables as per the timeline as of now. Apropos of deliverables, code has been pushed to the github repository [Rapid Annotator][repository-link].
 
-## add_experiment package
-
 ### PlUpload for uploading files
 Use PlUpload to upload files (multiple files together also possible) manually. It has provision for
 *   adding,
@@ -33,23 +31,23 @@ Hence, the final outlook of the page is as below
 Also as decided upon discussions with mentors : we have clubbed **view_experiment** and
 **add_experiment** packages under the name **add_experiment**.
 
-#### Rationale for clubbing both packages
+### Rationale for clubbing add_experiment and view_experiment
 * These 2 packages shared much of the functionality like adding labels / add-remove annotators-owners / adding files and so on.
 * So in view of _DRY_(don't repeat yourself) principle I think it would be best if these 2 packages could be clubbed together.
 
 Now, we have a separate module instead of _view_experiment_ package - where user can modify the settings of the experiment like - changing displayTime of experiment, assign different files to different annotators, view results, delete experiment and so on. This module is contained in add_experiment package.
 
-## results page package
+## results package
 
 * Table showing the annotations progress.
 * Discard Annotations button to discard all the annotations till now.
 
+![image](https://guptavaibhav18197.github.io/GSoC-Blog/assets/images/results.png)
+
+
 We have decided to finish the project as soon as possible, giving ample time for the users to use it and get back with suggestions possible need of improvement if required.
 
 I have henceforth start with the final phase work as well.
-
-![image](https://guptavaibhav18197.github.io/GSoC-Blog/assets/images/results.png)
-
 
 ## annotate_experiment package
 
@@ -69,8 +67,9 @@ I designed it initially as a 2 column view for lables but was then directed to r
 ![image](https://guptavaibhav18197.github.io/GSoC-Blog/assets/images/addLabelsPage.png)
 
 
-## Work left to do in phase 2
-Now I will be working on _view_experiment package_ and _results page_.
+## Work left to do in final phase
 
+* **admin package**
+* few stuff that needs to be tied up to finish with the development phase of Rapid Annotator.
 
 [repository-link]: https://github.com/guptavaibhav18197/rapidannotator
